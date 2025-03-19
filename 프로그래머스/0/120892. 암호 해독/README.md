@@ -1,10 +1,10 @@
 # [level 0] 암호 해독 - 120892 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120892) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120892?language=javascript) 
 
 ### 성능 요약
 
-메모리: 77.1 MB, 시간: 25.43 ms
+메모리: 33.5 MB, 시간: 0.16 ms
 
 ### 구분
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 12월 08일 19:51:38
+2025년 03월 19일 22:35:42
 
 ### 문제 설명
 
