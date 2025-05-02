@@ -14,9 +14,5 @@ function solution(arr, queries) {
         answer.push(min == Infinity ? -1 : min);
     }
     
-    
-    
-
-    
     return answer;
 }
