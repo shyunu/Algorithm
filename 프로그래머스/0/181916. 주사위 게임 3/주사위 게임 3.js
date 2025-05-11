@@ -43,6 +43,4 @@ function solution(a, b, c, d) {
     if (keys.length === 4) {
         return Math.min(...keys);
     }
-    
-    return 0;
 }
