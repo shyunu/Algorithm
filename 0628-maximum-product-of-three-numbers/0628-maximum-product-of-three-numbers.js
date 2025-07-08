@@ -8,7 +8,7 @@ var maximumProduct = function(nums) {
     const n = nums.length;
 
     const case1 = nums[n - 1] * nums[n - 2] * nums[n - 3];
-    const case2 = nums[0] * nums[1] * nums[2];
+    const case2 = nums[0] * nums[1] * nums[n-1];
 
     return Math.max(case1, case2);
 };
