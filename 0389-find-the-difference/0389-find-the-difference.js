@@ -1,0 +1,19 @@
+/**
+ * @param {string} s
+ * @param {string} t
+ * @return {character}
+ */
+var findTheDifference = function(s, t) {
+    if(s.length === 0) return t;
+
+    let arrS = s.split("").sort();
+    let arrT = t.split("").sort();
+
+    for(let i = 0; i < arrS.length; i++) {
+        if(arrS[i] !== arrT[i]) {
+            return arrT[i];
+        }
+    }
+
+    return arrT[arrT.length - 1];
+};
